@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+*::after,
+*::before{
+	/* pseudo-elements */
+    box-sizing: inherit;
+}
+html{
+    font-size: 16px;
+    font-family: 'web font', 'osx fallback', 'win fallback', sans-serif;
+    line-height: 1.5;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+header{
+    padding:1rem 2rem;
+	background-image: url(../img/photo.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	height: 700px;
+}
+.name {
+	font-family: sans-serif;
+	font-size: 150px;
+	color: hsla(208, 100%, 15%, 1);
+	text-shadow: 2px 2px 2px hsla(360, 100%, 100%, 1);
+}
+.username {
+	font-family: sans-serif;
+	font-size: 90px;
+	color: hsla(208, 100%, 90%, 1);
+	text-shadow: 2px 2px 2px hsla(208, 100%, 15%, 1);
+}
+nav{
+    padding:1rem 2rem;
+	background-color: hsla(208, 100%, 70%, 1);
+	border-bottom: 30px solid hsla(208, 100%, 15%, 1);
+}
+nav a {
+	padding-right: 100px;
+	font-size: 30px;
+}
+.link-underline {
+	text-decoration: underline;
+}
+.link-without-underline {
+	text-decoration: none;
+}
+main{
+    padding:1rem 2rem;
+}
+main h1{
+	color: hsla(208, 100%, 70%, 1);
+}
+main ul {
+  list-style-position: inside;
+}
+main p {
+	font-family: monospace;
+}
+section{
+    padding:1rem 2rem;
+}
+aside{
+    padding:1rem 2rem;
+}
+footer{
+    padding:1rem 2rem;
+}
